@@ -4,23 +4,20 @@
 
     </head>
     <body>
-        <title>PHP Practice Calculator</title>
+        <title>PHP Practice </title>
         <p> learning to build with php </p>
-        <ul>
-            <li> how do I start? </li>
-            <li> what do I need to down load?</li>
-        <ul>
-        </br>
     <?php
 
     $dog = "Ridgard";
-    echo "my dogs name is " . $dog . "! ";
+    echo nl2br("My dogs name is " . $dog . "! \n");
 
-    $cute = true;
+    $cute = false;
 
+    echo nl2br( "\n Is that dog cute?\n");
+    
     if ($cute == true) {
-        echo $dog . " is cute!";
-    } else { echo " you most not be talking about " . $dog;
+        echo nl2br( "\n" . $dog . " is cute!");
+    } else { echo nl2br( "\n No? \n\nThan you must not be talking about " . $dog . ".");
         }
     ?>
 
